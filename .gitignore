@@ -1,0 +1,41 @@
+# ============================================================================
+# CONTROL DE EXCLUSIÓN GIT - PROYECTO COMPARTAMOS BANCO (RETO EN VIVO)
+# ============================================================================
+
+# 1. SEGURIDAD DE LA INFORMACIÓN Y GOBIERNO DE DATOS (CRÍTICO)
+# Bloquea por completo la carpeta de datos crudos locales y cualquier CSV temporal
+datos/
+*.csv
+*.xlsx
+*.tsv
+
+# 2. BASURA DE EJECUCIÓN Y CACHÉ DE PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py.class
+
+# 3. ENTORNOS VIRTUALES LOCALES
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 4. CONFIGURACIONES DE EDITORES E IDEs LOCALES
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 5. ARCHIVOS DE SISTEMA OPERATIVO
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+.DS_Store
